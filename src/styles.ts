@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const EstiloGlobal = createGlobalStyle`
 * {
@@ -10,6 +10,17 @@ const EstiloGlobal = createGlobalStyle`
 body {
     background-color: ${props => props.theme.corFundo};
 }
+`
+
+export const Container = styled.div `
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+    display: block;
+  }
 `
 
 export default EstiloGlobal

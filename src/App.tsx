@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
-import EstiloGlobal from "./styles";
+import EstiloGlobal, { Container } from "./styles";
 import tema from "./themes/main";
 import Navbar from "./containers/Navbar";
 import Projeto from "./containers/Projeto";
@@ -32,7 +32,9 @@ function App() {
     <ThemeProvider theme={tema}>
       <EstiloGlobal />
       <Navbar setActiveComponent={setActiveComponent} />
-      {renderComponent()}
+      <Container>
+        {renderComponent()}
+      </Container>
     </ThemeProvider>
   );
 }
