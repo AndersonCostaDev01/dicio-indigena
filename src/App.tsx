@@ -1,17 +1,16 @@
-import { Traducoes } from "./scripts/arey";
+// import { Traducoes } from "./scripts/arey";
+
+import { ThemeProvider } from "styled-components";
+import EstiloGlobal from "./styles";
+import tema from "./themes/main";
+import Navbar from "./containers/Navbar";
 
 function App() {
   return (
-    <>
-      <h1>Traduções:</h1>
-      <ul>
-        {Traducoes.map((traducao, index) => (
-          <li key={index}>
-            {traducao.palavra} - {traducao.traducaoTupi}
-          </li>
-        ))}
-      </ul>
-    </>
+    <ThemeProvider theme={tema}>
+      <EstiloGlobal />
+      <Navbar />
+    </ThemeProvider>
   );
 }
 
