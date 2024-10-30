@@ -63,7 +63,7 @@ export const Menu = styled.button`
 `;
 
 export const MenuHamburger = styled.img`
-    width: 60px;
+    width: 30px;
     height: auto;
     padding-bottom: 30px;
 `;

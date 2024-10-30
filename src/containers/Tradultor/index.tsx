@@ -1,9 +1,12 @@
+import SelectTradutor from "../../components/SelectTradultor"
+import { ContainerTradultor } from "./styles"
+
 const Tradultor = () => {
 
     return (
-        <h2>
-            Trabalho
-        </h2>
+        <ContainerTradultor>
+            <SelectTradutor />
+        </ContainerTradultor>
     )
 }
 
