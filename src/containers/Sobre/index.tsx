@@ -11,7 +11,7 @@ const Sobre = () => {
                 </TituloSobre>
                 <TextoSobre>
 
-                    As línguas indígenas no Brasil têm uma origem ancestral e são resultado da ContainerSobreersidade étnica dos povos nativos da América do Sul. Esses idiomas começaram a se desenvolver há milhares de anos, antes da chegada dos colonizadores, refletindo o modo de vida, cultura e tradições específicas de cada grupo. A variedade linguística indígena no Brasil é uma das mais ricas do mundo, e os idiomas indígenas estão em famílias e troncos linguísticos que remontam a milênios de desenvolvimento independente e transmitem a cosmovisão e a história dos povos que as falam.
+                    As línguas indígenas no Brasil têm uma origem ancestral e são resultado da étnica dos povos nativos da América do Sul. Esses idiomas começaram a se desenvolver há milhares de anos, antes da chegada dos colonizadores, refletindo o modo de vida, cultura e tradições específicas de cada grupo. A variedade linguística indígena no Brasil é uma das mais ricas do mundo, e os idiomas indígenas estão em famílias e troncos linguísticos que remontam a milênios de desenvolvimento independente e transmitem a cosmovisão e a história dos povos que as falam.
                 </TextoSobre>
                 <ImagePrimary />
             </ContainerSobre>
@@ -53,7 +53,7 @@ const Sobre = () => {
                     Conclusão
                 </TituloSobre>
                 <TextoSobre>
-                    Essas línguas representam uma riqueza cultural que vai além da comunicação: são formas de entender o mundo e uma ligação com as tradições ancestrais. Preservar e valorizar as línguas indígenas é essencial para manter viva a ContainerSobreersidade cultural e o conhecimento dos povos originários.
+                    Essas línguas representam uma riqueza cultural que vai além da comunicação: são formas de entender o mundo e uma ligação com as tradições ancestrais. Preservar e valorizar as línguas indígenas é essencial para manter viva a cultural e o conhecimento dos povos originários.
                 </TextoSobre>
             </ContainerSobre>
         </>
