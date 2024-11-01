@@ -11,7 +11,7 @@ import Todas from "./containers/Todas";
 import Tradultor from "./containers/Tradultor";
 
 function App() {
-  const [activeComponent, setActiveComponent] = useState<string>("Tradultor");
+  const [activeComponent, setActiveComponent] = useState<string>("Sobre");
 
   const renderComponent = () => {
     switch (activeComponent) {
