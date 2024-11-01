@@ -26,7 +26,6 @@ const Navbar = ({ setActiveComponent }: NavbarProps) => {
         <ButtonNavbar onClick={() => setActiveComponent("Tradultor")}>Tradultor</ButtonNavbar>
         <ButtonNavbar onClick={() => setActiveComponent("Todas")}>Todas</ButtonNavbar>
         <ButtonNavbar onClick={() => setActiveComponent("Sobre")}>Sobre</ButtonNavbar>
-        <ButtonNavbar onClick={() => setActiveComponent("Projeto")}>Projeto</ButtonNavbar>
       </ContainerButtons>
     </NavBar>
   );
