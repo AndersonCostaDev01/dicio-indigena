@@ -23,7 +23,7 @@ const Navbar = ({ setActiveComponent }: NavbarProps) => {
         </Menu>
       </Divimg>
       <ContainerButtons isOpen={isMenuOpen}>
-        <ButtonNavbar onClick={() => setActiveComponent("Tradultor")}>Tradultor</ButtonNavbar>
+        <ButtonNavbar onClick={() => setActiveComponent("Tradultor")}>Tradutor</ButtonNavbar>
         <ButtonNavbar onClick={() => setActiveComponent("Todas")}>Todas</ButtonNavbar>
         <ButtonNavbar onClick={() => setActiveComponent("Sobre")}>Sobre</ButtonNavbar>
       </ContainerButtons>
