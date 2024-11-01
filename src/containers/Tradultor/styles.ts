@@ -9,3 +9,8 @@ export const Grid = styled.div `
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 `
+
+export const Revers = styled.div `
+    display: flex ;
+    flex-direction: column-reverse;
+`

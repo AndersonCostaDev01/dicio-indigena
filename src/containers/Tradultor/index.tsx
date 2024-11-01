@@ -3,7 +3,7 @@ import { useState } from "react";
 import Post from "../../components/Post";
 import { Traducao } from "../../scripts/arey";
 import SelectTradutor from "../../components/SelectTradultor";
-import { ContainerTradultor } from "./styles";
+import { ContainerTradultor, Revers } from "./styles";
 import { ClearButton } from "../../components/Post/styles";
 import Lixeira from "../../components/Lixeira";
 
@@ -26,9 +26,11 @@ const Tradutor = () => {
                     <Lixeira />
                 </ClearButton>
             )}
-            {areysList.map((areys, index) => (
-                <Post key={index} areys={areys} />
-            ))}
+            <Revers>
+                {areysList.map((areys, index) => (
+                    <Post key={index} areys={areys} />
+                ))}
+            </Revers>
         </ContainerTradultor>
     );
 };
